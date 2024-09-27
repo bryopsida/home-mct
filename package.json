@@ -1,0 +1,22 @@
+{
+  "name": "@bryopsida/home-mct",
+  "version": "0.1.0",
+  "description": "A setup of open-mct to control home and IoT things",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openmct": "^4.0.0",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
